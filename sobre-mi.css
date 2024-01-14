@@ -1,0 +1,68 @@
+body{
+    font-family: sans-serif;
+    margin: 0%;
+    background-image: url(manzana.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+}
+header{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    background-color: greenyellow;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 75px;
+    margin-right: 10px;
+}
+nav{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+.Inicio{
+    padding: 10px;
+    border: 5px solid yellow;
+    color: rgb(31, 63, 151);
+    font-size: 35px;
+    width: 700px;
+}
+.nav-link{
+    background-color: rgb(86, 184, 151); /*color de fondo del elemento*/
+    color: black; /*color de la letra*/
+    padding: 12px; /*separa el texto junto*/
+    text-decoration: none; /*elimina la decoracion que tiene el texto*/
+    margin-bottom: 50px; /*establece el espacio requerido en la parte inferior de un elemento*/
+    text-align: center; /*centra el texto*/
+    font-family: Georgia, 'Times New Roman', Times, serif;  /*cambia la letra(puedes usar hasta 3 tipos de letra si falla una)*/
+}
+.redes h3{
+    color: brown;
+    font-size: 35px;
+    font-family: monospace;
+}
+.redes ul{
+    padding: 10px;
+    border: 5px solid rgb(211, 113, 206);
+    width: 500px;
+
+
+}
+.redes li{
+    font-size: 30px;
+    color: rgb(99, 99, 230);
+}
+.redes p{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-decoration: none;
+
+}
